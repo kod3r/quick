@@ -1,7 +1,13 @@
 #####Simple local file JSON storage    
 Saves to settings.json by default.  Single function getset(k, v).  Asynchronous.
+
 ````
 var simpledb = require('./quick.js')();
+
+// or using npm
+$ npm install quick-store
+var simpledb = require('quick-store')();
+//
 
 // Set value - saves to JSON file
 simpledb.getset('key', 'value', function(o){

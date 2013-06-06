@@ -1,4 +1,4 @@
-#####Simple local file JSON storage    
+####Simple local file JSON storage    
 Saves to settings.json by default.  Single function getset(k, v).  Asynchronous.
 
 ````
@@ -20,7 +20,12 @@ simpledb.getset('key', function(s){
 });
 ````
 
-Alternate file name..
+####Alternate file name..
 ````
 var simpledb = require('./quick.js')('./mydb.json');
+````
+
+####Test
+````
+$ node tests
 ````

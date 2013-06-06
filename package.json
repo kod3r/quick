@@ -1,5 +1,5 @@
 {
-  "name"          : "quick",
+  "name"          : "quick-store",
   "description"   : "",
   "url"           : "http://github.com/dpweb/quick/",
   "keywords"      : ["util", "nodejs", "express", "web", "html5"],
@@ -9,5 +9,5 @@
     "type": "git",
  	"url": "git://github.com/dpweb/quick.git"
   },
-  "version"       : "0.0.1"
+  "version"       : "0.0.3"
 }
